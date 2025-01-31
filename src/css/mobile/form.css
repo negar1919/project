@@ -1,0 +1,109 @@
+.form{
+    
+        padding-left: 8px;
+ .imag{
+     width: 469px;
+     height: 351px;
+    overflow: hidden;
+
+     img{
+         width: 469px;
+         height: 351px;
+     }
+     .formtitle{
+        width: 589px;
+        height: 461px;
+         background-color: #1C1E5380 
+    }
+     }
+ }
+ .form-container {
+   
+    padding: 30px 20px; 
+   text-align: center;
+   width: 90%;
+   max-width: 500px;
+ }
+ 
+ .form-title {
+   font-size: 24px;
+   margin-bottom: 10px;
+ }
+ 
+ .form-description {
+   font-size: 14px;
+   line-height: 1.6;
+   margin-bottom: 20px;
+ }
+ 
+ .custom-form input {
+   width: 100%;
+   padding: 12px;
+   margin: 10px 0;
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   border-radius: 8px;
+   background: #1C1E5380 ;
+   color: white;
+   font-size: 14px;
+ }
+ 
+ .custom-form input::placeholder {
+   color: rgba(255, 255, 255, 0.7);
+ }
+ 
+
+ 
+ .custom-form button {
+   width: 100%;
+   padding: 12px;
+   border: none;
+   border-radius: 25px; /* دکمه گرد */
+   background: #FCD980; /* رنگ دکمه */
+   color: #000;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 32px;
+   font-family: Poppins;
+   cursor: pointer;
+   transition: background 0.3s ease;
+ }
+ 
+ .custom-form button:hover {
+   background: #ffad33;
+ }
+ 
+ .footer-text {
+   margin-top: 10px;
+   font-size: 18px;
+   line-height: 32px;
+   font-family: Poppins;
+   color: #F4F6FC;
+ }
+ 
+ /* استایل واکنش‌گرا */
+ @media (min-width: 1000px) {
+   .form-container {
+     padding: 40px 30px;
+     max-width: 600px;
+   }
+ 
+   .form-title {
+     font-size: 28px;
+   }
+ 
+   .form-description {
+     font-size: 16px;
+   }
+ 
+   .custom-form input {
+     font-size: 16px;
+   }
+ 
+   .custom-form button {
+     font-size: 18px;
+   }
+ 
+   .footer-text {
+     font-size: 16px;
+   }
+ }
